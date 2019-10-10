@@ -1,1 +1,1 @@
-# mizuxe.github.io
+# This is a simple one page theme from udemy bootstrap course.
