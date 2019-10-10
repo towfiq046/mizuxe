@@ -1,0 +1,133 @@
+body {
+  margin-top: 75px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.8;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.2rem;
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 630px;
+}
+
+#showcase .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-instagram {
+  color: #125688;
+}
+
+#authors {
+  /* Grow Shadow */
+}
+
+#authors .hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidde;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform color, background-color;
+  -webkit-transition-property: background-color, -webkit-box-shadow, -webkit-transform color;
+  transition-property: background-color, -webkit-box-shadow, -webkit-transform color;
+  transition-property: box-shadow, transform color, background-color;
+  transition-property: box-shadow, transform color, background-color, -webkit-box-shadow, -webkit-transform color;
+}
+
+#authors .hvr-grow-shadow:hover,
+#authors .hvr-grow-shadow:focus,
+#authors .hvr-grow-shadow:active {
+  -webkit-box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background: rgba(50, 146, 166, 0.8);
+  color: white;
+}
+
+#authors .hvr-grow-shadow:hover .fa-facebook,
+#authors .hvr-grow-shadow:focus .fa-facebook,
+#authors .hvr-grow-shadow:active .fa-facebook {
+  color: #fff;
+}
+
+#authors .hvr-grow-shadow:hover .fa-twitter,
+#authors .hvr-grow-shadow:focus .fa-twitter,
+#authors .hvr-grow-shadow:active .fa-twitter {
+  color: #fff;
+}
+
+#authors .hvr-grow-shadow:hover .fa-instagram,
+#authors .hvr-grow-shadow:focus .fa-instagram,
+#authors .hvr-grow-shadow:active .fa-instagram {
+  color: #fff;
+}
+
+#main-footer {
+  background: #3292a6;
+}
+
+@media (max-width: 992px) {
+  #showcase {
+    min-height: 400px;
+  }
+  #showcase h1 {
+    font-size: 2.5rem;
+  }
+  #contact .img-fluid {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 0.7rem;
+  }
+  #contact .w-auto {
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 262px) {
+  #showcase h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 248px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+}
