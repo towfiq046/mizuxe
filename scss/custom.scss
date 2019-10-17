@@ -9,10 +9,42 @@ body {
   box-shadow: 2px 2px 5px $primary;
   opacity: 0.8;
   background: #fff;
+  transition: all 0.3s ease;
+
+  h3 {
+    transition: all 0.3s ease;
+  }
 
   .nav-item {
     font-size: 1.2rem;
-    padding-right: 1.4rem;
+    padding-right: 1.3rem;
+    transition: all 0.3s ease;
+  }
+}
+
+.shrink {
+  min-height: 40px;
+  transition: all 0.3s ease;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  .navbar-brand {
+    img {
+      height: 40px;
+      width: 40px;
+      transition: all 0.3s ease;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .nav-item {
+    font-size: 1.1rem;
+    padding-right: 1.2rem;
+    transition: all 0.3s ease;
   }
 }
 

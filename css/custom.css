@@ -7,11 +7,48 @@ body {
           box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.8;
   background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar h3 {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar .nav-item {
   font-size: 1.2rem;
-  padding-right: 1.4rem;
+  padding-right: 1.3rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.shrink {
+  min-height: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.shrink .navbar-brand img {
+  height: 40px;
+  width: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.shrink .navbar-brand h3 {
+  font-size: 1.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.shrink .nav-item {
+  font-size: 1.1rem;
+  padding-right: 1.2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #showcase {
